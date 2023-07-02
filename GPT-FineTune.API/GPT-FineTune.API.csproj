@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>GPT_FineTune.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TrainingFiles\training-data-55f96554.JSONL" />
+    <None Remove="TrainingFiles\training-data-8de43320.JSONL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GPT-FineTune.Application\GPT-FineTune.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TrainingFiles\" />
+  </ItemGroup>
+
+</Project>
