@@ -49,7 +49,7 @@ namespace GPT_FineTune.Application.Services
                 var structureBuilder = new StringBuilder("");
                 structureBuilder.Append("{\"prompt\": \"");
                 structureBuilder.Append(dataItem.Prompt);
-                structureBuilder.Append("\", \"completion\": \"");
+                structureBuilder.Append("\", \"completion\": \" ");
                 structureBuilder.Append(dataItem.Completion);
                 structureBuilder.Append("\"}");
 

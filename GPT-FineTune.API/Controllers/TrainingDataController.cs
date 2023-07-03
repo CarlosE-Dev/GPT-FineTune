@@ -1,4 +1,4 @@
-﻿using GPT_FineTune.Application.InputModels;
+﻿using GPT_FineTune.Application.Commands.TrainingFiles;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +15,7 @@ namespace GPT_FineTune.API.Controllers
         }
 
         [HttpPost("format")]
-        public async Task<IActionResult> FormatTrainingData(FormatTrainingDataInputModel input)
+        public async Task<IActionResult> FormatTrainingData(FormatTrainingDataCommand input)
         {
             try
             {
