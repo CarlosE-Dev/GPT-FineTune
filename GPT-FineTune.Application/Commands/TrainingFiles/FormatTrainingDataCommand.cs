@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GPT_FineTune.Application.Commands.TrainingFiles
 {
-    public class FormatTrainingDataCommand : BaseCommand, IRequest<string>
+    public class FormatTrainingDataCommand : IRequest<string>
     {
         [Required]
         public IEnumerable<TrainingData> TrainingData { get; set; }

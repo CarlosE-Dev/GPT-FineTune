@@ -7,9 +7,9 @@ namespace GPT_FineTune.Application.Interfaces
     public interface IFineTuneService
     {
         Task<IReadOnlyList<FineTuneJob>> GetAllFineTuningJobsAsync();
-        Task CreateFineTuneJobAsync(CreateFineTuneJobRequest request);
-        Task<FineTuneJob> GetFineTuneJobInfoAsync(FineTuneJob job);
-        Task CancelFineTuneJobAsync(FineTuneJob job);
-        Task<IReadOnlyList<Event>> GetFineTuneEventsAsync(FineTuneJob job);
+        Task<FineTuneJob> CreateFineTuneJobAsync(CreateFineTuneJobRequest request);
+        Task<FineTuneJob> GetFineTuneJobInfoAsync(string fineTuneJobId);
+        Task CancelFineTuneJobAsync(string fineTuneJobId);
+        Task<IReadOnlyList<Event>> GetFineTuneEventsAsync(string fineTuneJobId);
     }
 }

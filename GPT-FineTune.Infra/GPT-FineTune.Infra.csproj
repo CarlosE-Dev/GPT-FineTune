@@ -4,7 +4,10 @@
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>GPT_FineTune.Infra</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GPT-FineTune.Application\GPT-FineTune.Application.csproj" />
+  </ItemGroup>
 
 </Project>

@@ -46,8 +46,7 @@ namespace GPT_FineTune.API.Controllers
         {
             try
             {
-                await _mediator.Send(input);
-                return Created("", input);
+                return Created("", await _mediator.Send(input));
             }
             catch (Exception ex)
             {

@@ -1,5 +1,4 @@
 ﻿using GPT_FineTune.Application.Interfaces;
-using Microsoft.Extensions.Configuration;
 using OpenAI;
 using OpenAI.Files;
 
@@ -7,42 +6,38 @@ namespace GPT_FineTune.Application.Services
 {
     public class FileService : IFileService
     {
-        private readonly IConfiguration _config;
-        private readonly string _apiKey;
-        private readonly OpenAIClient _httpClient;
-
-        public FileService(IConfiguration config)
+        private readonly IFileApiRepository _repository;
+        public FileService(IFileApiRepository repository)
         {
-            _config = config;
-            _apiKey = _config["OpenApiKey"];
-            _httpClient = new OpenAIClient(new OpenAIAuthentication(_apiKey));
+            _repository = repository;
         }
 
-        public async Task UploadFileAsync(string fileName, string purpose)
+        public async Task<FileData> UploadFileAsync(string fileName, string purpose)
         {
             var defaultPath = GetDefaultPath("TrainingFiles", fileName);
-            await _httpClient.FilesEndpoint.UploadFileAsync(Path.Combine(defaultPath, fileName), purpose);
+
+            return await _repository.UploadFileAsync(Path.Combine(defaultPath, fileName), purpose);
         }
 
         public async Task<IReadOnlyList<FileData>> GetAllFilesAsync()
         {
-            return await _httpClient.FilesEndpoint.ListFilesAsync();
+            return await _repository.ListFilesAsync();
         }
 
         public async Task<FileData> GetFileInfoAsync(string fileId)
         {
-            return await _httpClient.FilesEndpoint.GetFileInfoAsync(fileId);
+            return await _repository.GetFileInfoAsync(fileId);
         }
 
         public async Task DeleteFileAsync(string fileId)
         {
-            await _httpClient.FilesEndpoint.DeleteFileAsync(fileId);
+            await _repository.DeleteFileAsync(fileId);
         }
 
         public async Task<string> DownloadFileAsync(string fileId)
         {
             var defaultPath = GetDefaultPath("FileDownloads");
-            await _httpClient.FilesEndpoint.DownloadFileAsync(fileId, defaultPath);
+            await _repository.DownloadFileAsync(fileId, defaultPath);
 
             return $"Path: {defaultPath}";
         }

@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GPT-FineTune.Application\GPT-FineTune.Application.csproj" />
+    <ProjectReference Include="..\GPT-FineTune.Infra\GPT-FineTune.Infra.csproj" />
   </ItemGroup>
 
   <ItemGroup>
