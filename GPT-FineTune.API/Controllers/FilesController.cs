@@ -28,12 +28,12 @@ namespace GPT_FineTune.API.Controllers
             }
         }
 
-        [HttpGet("info/{fileId:string}")]
-        public async Task<IActionResult> GetFileInfo([FromRoute] string fileId)
+        [HttpGet("info/{id}")]
+        public async Task<IActionResult> GetFileInfo([FromRoute] string id)
         {
             try
             {
-                return Ok(await _mediator.Send(new GetFileInfoQuery(fileId)));
+                return Ok(await _mediator.Send(new GetFileInfoQuery(id)));
             }
             catch (Exception ex)
             {

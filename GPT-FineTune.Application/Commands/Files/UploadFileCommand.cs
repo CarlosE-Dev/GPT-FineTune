@@ -1,10 +1,11 @@
 ﻿using GPT_FineTune.Application.Interfaces;
 using MediatR;
+using OpenAI.Files;
 using System.ComponentModel.DataAnnotations;
 
 namespace GPT_FineTune.Application.Commands.Files
 {
-    public class UploadFileCommand : IRequest<Unit>
+    public class UploadFileCommand : IRequest<FileData>
     {
         [Required]
         public string FileName { get; set; }
@@ -13,7 +14,7 @@ namespace GPT_FineTune.Application.Commands.Files
         public string Purpose { get; set; }
     }
 
-    public class UploadFileCommandHandler : IRequestHandler<UploadFileCommand, Unit>
+    public class UploadFileCommandHandler : IRequestHandler<UploadFileCommand, FileData>
     {
         private readonly IFileService _service;
         public UploadFileCommandHandler(IFileService service)
@@ -21,11 +22,9 @@ namespace GPT_FineTune.Application.Commands.Files
             _service = service;
         }
 
-        public async Task<Unit> Handle(UploadFileCommand request, CancellationToken cancellationToken)
+        public async Task<FileData> Handle(UploadFileCommand request, CancellationToken cancellationToken)
         {
-            await _service.UploadFileAsync(request.FileName, request.Purpose);
-
-            return await Task.FromResult(Unit.Value);
+            return await _service.UploadFileAsync(request.FileName, request.Purpose);
         }
     }
 }

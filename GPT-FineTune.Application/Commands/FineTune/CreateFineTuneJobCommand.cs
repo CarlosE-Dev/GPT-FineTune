@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace GPT_FineTune.Application.Commands.FineTune
 {
-    public class CreateFineTuneJobCommand : IRequest<Unit>
+    public class CreateFineTuneJobCommand : IRequest<FineTuneJob>
     {
         [JsonPropertyName("training_file")]
         public string TrainingFileId { get; set; }
@@ -44,14 +44,14 @@ namespace GPT_FineTune.Application.Commands.FineTune
         public string Suffix { get; set; }
     }
 
-    public class CreateFineTuneCommandHandler : IRequestHandler<CreateFineTuneJobCommand, Unit>
+    public class CreateFineTuneCommandHandler : IRequestHandler<CreateFineTuneJobCommand, FineTuneJob>
     {
         private readonly IFineTuneService _service;
         public CreateFineTuneCommandHandler(IFineTuneService service)
         {
             _service = service;
         }
-        public async Task<Unit> Handle(CreateFineTuneJobCommand request, CancellationToken cancellationToken)
+        public async Task<FineTuneJob> Handle(CreateFineTuneJobCommand request, CancellationToken cancellationToken)
         {
             var createRequest = new CreateFineTuneJobRequest(
                 request.TrainingFileId, 
@@ -68,9 +68,7 @@ namespace GPT_FineTune.Application.Commands.FineTune
                 request.Suffix
             );
 
-            await _service.CreateFineTuneJobAsync(createRequest);
-
-            return await Task.FromResult(Unit.Value);
+            return await _service.CreateFineTuneJobAsync(createRequest);
         }
     }
 }

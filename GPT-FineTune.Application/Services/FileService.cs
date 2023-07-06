@@ -16,7 +16,7 @@ namespace GPT_FineTune.Application.Services
         {
             var defaultPath = GetDefaultPath("TrainingFiles", fileName);
 
-            return await _repository.UploadFileAsync(Path.Combine(defaultPath, fileName), purpose);
+            return await _repository.UploadFileAsync(defaultPath, purpose);
         }
 
         public async Task<IReadOnlyList<FileData>> GetAllFilesAsync()
