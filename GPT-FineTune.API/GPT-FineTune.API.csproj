@@ -4,7 +4,6 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>GPT_FineTune.API</RootNamespace>
-    <UserSecretsId>d38d5bfb-671c-4922-a4ae-56b87d71ce83</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
