@@ -26,7 +26,12 @@ namespace GPT_FineTune.Application.Services
 
         public async Task<FileData> GetFileInfoAsync(string fileId)
         {
-            return await _repository.GetFileInfoAsync(fileId);
+            var result = await _repository.GetFileInfoAsync(fileId);
+
+            if (result == null)
+                throw new FileNotFoundException();
+
+            return result;
         }
 
         public async Task DeleteFileAsync(string fileId)

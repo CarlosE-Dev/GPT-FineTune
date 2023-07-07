@@ -1,12 +1,14 @@
 ﻿using GPT_FineTune.Application.Interfaces;
 using MediatR;
 using OpenAI.FineTuning;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace GPT_FineTune.Application.Commands.FineTune
 {
     public class CreateFineTuneJobCommand : IRequest<FineTuneJob>
     {
+        [Required]
         [JsonPropertyName("training_file")]
         public string TrainingFileId { get; set; }
 

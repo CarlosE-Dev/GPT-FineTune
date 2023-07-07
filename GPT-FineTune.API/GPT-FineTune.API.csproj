@@ -4,16 +4,19 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>GPT_FineTune.API</RootNamespace>
+    <UserSecretsId>0b30d49e-70af-4717-bec1-cb2cf2fabb1c</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="TrainingFiles\training-data-55f96554.JSONL" />
     <None Remove="TrainingFiles\training-data-8de43320.JSONL" />
+    <None Remove="TrainingFiles\training-data-d414eeebfb5340efa8419272314daf55.jsonl" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 

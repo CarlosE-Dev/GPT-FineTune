@@ -15,12 +15,12 @@ namespace GPT_FineTune.API.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> GetAll([FromBody] GetAllFilesQuery query)
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
             try
             {
-                return Ok(await _mediator.Send(query));
+                return Ok(await _mediator.Send(new GetAllFilesQuery()));
             }
             catch (Exception ex)
             {

@@ -10,8 +10,8 @@ namespace GPT_FineTune.Application.Services
         {
             try
             {
-                var jsonData = FormatData(trainingData);
-                return await PersistData(jsonData);
+                var data = FormatData(trainingData);
+                return await PersistData(data);
             }
             catch(Exception ex)
             {
@@ -19,7 +19,7 @@ namespace GPT_FineTune.Application.Services
             }
         }
 
-        private async Task<string> PersistData(string data)
+        private async Task<string> PersistData(Dictionary<string, string> data)
         {
             var fileNameBuilder = new StringBuilder("");
             fileNameBuilder.Append("training-data-");
@@ -35,28 +35,35 @@ namespace GPT_FineTune.Application.Services
 
             string completePath = Path.Combine(defaultPath, fileName);
 
-            await File.WriteAllTextAsync(completePath, data);
+            await File.WriteAllTextAsync(completePath, data["data"]);
 
-            return $"File: {fileName}\nPath: {completePath}";
+            return $"File: {fileName}\nPath: {completePath}\nCount: {data["count"]}";
         }
 
-        private string FormatData(IEnumerable<TrainingData> data)
+        private Dictionary<string, string> FormatData(IEnumerable<TrainingData> data)
         {
+            int count = 0;
             var formattedDataBuilder = new StringBuilder();
+            var formattedData = new Dictionary<string, string>();
 
             foreach (var dataItem in data)
             {
                 var structureBuilder = new StringBuilder("");
                 structureBuilder.Append("{\"prompt\": \"");
                 structureBuilder.Append(dataItem.Prompt);
-                structureBuilder.Append("\", \"completion\": \" ");
+                structureBuilder.Append("####");
+                structureBuilder.Append("\", \"completion\": \"");
                 structureBuilder.Append(dataItem.Completion);
                 structureBuilder.Append("\"}");
 
                 formattedDataBuilder.AppendLine(structureBuilder.ToString());
+                count++;
             }
 
-            return formattedDataBuilder.ToString();
+            formattedData.Add("data", formattedDataBuilder.ToString());
+            formattedData.Add("count", count.ToString());
+
+            return formattedData;
         }
     }
 }

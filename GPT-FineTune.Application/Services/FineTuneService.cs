@@ -1,4 +1,5 @@
 ﻿using GPT_FineTune.Application.Interfaces;
+using GPT_FineTune.Domain.Exceptions;
 using OpenAI;
 using OpenAI.FineTuning;
 
@@ -24,7 +25,12 @@ namespace GPT_FineTune.Application.Services
 
         public async Task<FineTuneJob> GetFineTuneJobInfoAsync(string fineTuneJobId)
         {
-            return await _repository.RetrieveFineTuneJobInfoAsync(fineTuneJobId);
+            var result =  await _repository.RetrieveFineTuneJobInfoAsync(fineTuneJobId);
+
+            if (result == null)
+                throw new FineTuneJobNotFoundException();
+
+            return result;
         }
 
         public async Task CancelFineTuneJobAsync(string fineTuneJobId)
@@ -34,7 +40,12 @@ namespace GPT_FineTune.Application.Services
 
         public async Task<IReadOnlyList<Event>> GetFineTuneEventsAsync(string fineTuneJobId)
         {
-            return await _repository.ListFineTuneEventsAsync(fineTuneJobId);
+            var result = await _repository.ListFineTuneEventsAsync(fineTuneJobId);
+
+            if (result == null)
+                throw new FineTuneJobNotFoundException();
+
+            return result;
         }
     }
 }

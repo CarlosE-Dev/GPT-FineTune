@@ -31,12 +31,12 @@ namespace GPT_FineTune.API.Controllers
         }
 
 
-        [HttpPost("list")]
-        public async Task<IActionResult> ListFineTuneJobs(GetFineTuneJobsQuery query)
+            [HttpGet("list")]
+        public async Task<IActionResult> ListFineTuneJobs()
         {
             try
             {
-                return Ok(await _mediator.Send(query));
+                return Ok(await _mediator.Send(new GetFineTuneJobsQuery()));
             }
             catch (Exception ex)
             {

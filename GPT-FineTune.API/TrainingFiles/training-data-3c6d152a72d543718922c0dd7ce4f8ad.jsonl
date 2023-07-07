@@ -1,0 +1,235 @@
+{"prompt": "Gravity pulls objects towards the center of the Earth.####", "completion": "true####"}
+{"prompt": "The Great Wall of China is visible from space.####", "completion": "false####"}
+{"prompt": "Humans have five senses.####", "completion": "true####"}
+{"prompt": "The speed of light is faster than the speed of sound.####", "completion": "true####"}
+{"prompt": "Mount Everest is the tallest mountain in the world.####", "completion": "true####"}
+{"prompt": "The Nile River is the longest river in the world.####", "completion": "true####"}
+{"prompt": "The Moon orbits around the Earth.####", "completion": "true####"}
+{"prompt": "Apples are a type of fruit.####", "completion": "true####"}
+{"prompt": "The Pacific Ocean is the largest ocean on Earth.####", "completion": "true####"}
+{"prompt": "Birds lay eggs.####", "completion": "true####"}
+{"prompt": "Antarctica is the coldest continent on Earth.####", "completion": "true####"}
+{"prompt": "The Amazon Rainforest is the largest tropical rainforest in the world.####", "completion": "true####"}
+{"prompt": "Photosynthesis is the process by which plants convert sunlight into energy.####", "completion": "true####"}
+{"prompt": "Lions are herbivores.####", "completion": "false####"}
+{"prompt": "The human brain has four lobes.####", "completion": "false####"}
+{"prompt": "Rome is the capital city of Italy.####", "completion": "true####"}
+{"prompt": "Ice is less dense than water.####", "completion": "true####"}
+{"prompt": "The planet Jupiter has the most moons in our solar system.####", "completion": "true####"}
+{"prompt": "Tigers are native to Africa.####", "completion": "false####"}
+{"prompt": "The Eiffel Tower is located in London.####", "completion": "false####"}
+{"prompt": "The human heart pumps blood throughout the body.####", "completion": "true####"}
+{"prompt": "The Sahara Desert is the largest desert in the world.####", "completion": "true####"}
+{"prompt": "Oxygen is necessary for combustion.####", "completion": "true####"}
+{"prompt": "The planet Venus is closer to the Sun than the Earth.####", "completion": "true####"}
+{"prompt": "The United States declared independence from Britain in 1776.####", "completion": "true####"}
+{"prompt": "Dolphins are fish.####", "completion": "false####"}
+{"prompt": "The human skeleton is made up of 206 bones.####", "completion": "true####"}
+{"prompt": "Bees produce honey.####", "completion": "true####"}
+{"prompt": "The Taj Mahal is located in India.####", "completion": "true####"}
+{"prompt": "Snakes are venomous.####", "completion": "true####"}
+{"prompt": "The planet Saturn has rings.####", "completion": "true####"}
+{"prompt": "The Australian continent is also a country.####", "completion": "true####"}
+{"prompt": "Elephants can fly.####", "completion": "false####"}
+{"prompt": "The human body is made up of approximately 70% water.####", "completion": "true####"}
+{"prompt": "The Great Barrier Reef is the largest coral reef system in the world.####", "completion": "true####"}
+{"prompt": "Coffee is made from beans.####", "completion": "true####"}
+{"prompt": "The planet Neptune is further from the Sun than Uranus.####", "completion": "true####"}
+{"prompt": "Soccer is also known as football in most countries.####", "completion": "true####"}
+{"prompt": "Spiders have six legs.####", "completion": "false####"}
+{"prompt": "The Colosseum is located in Athens.####", "completion": "false####"}
+{"prompt": "The human respiratory system includes the lungs.####", "completion": "true####"}
+{"prompt": "The Arctic is located at the North Pole.####", "completion": "true####"}
+{"prompt": "Chocolate is derived from cocoa beans.####", "completion": "true####"}
+{"prompt": "Cheetahs are the fastest land animals.####", "completion": "true####"}
+{"prompt": "The planet Mercury is the closest planet to the Sun.####", "completion": "true####"}
+{"prompt": "Rabbits are nocturnal animals.####", "completion": "false####"}
+{"prompt": "The Mona Lisa was painted by Leonardo da Vinci.####", "completion": "true####"}
+{"prompt": "Giraffes have short necks.####", "completion": "false####"}
+{"prompt": "The city of Tokyo is located in China.####", "completion": "false####"}
+{"prompt": "The human liver is responsible for detoxification.####", "completion": "true####"}
+{"prompt": "Lightning is caused by the collision of particles in the atmosphere.####", "completion": "true####"}
+{"prompt": "Penguins can fly.####", "completion": "false####"}
+{"prompt": "The Statue of David was sculpted by Michelangelo.####", "completion": "true####"}
+{"prompt": "The planet Pluto is considered a dwarf planet.####", "completion": "true####"}
+{"prompt": "Bananas are berries.####", "completion": "true####"}
+{"prompt": "The Sydney Opera House is located in Australia.####", "completion": "true####"}
+{"prompt": "The human immune system helps protect the body from infections.####", "completion": "true####"}
+{"prompt": "All mammals lay eggs.####", "completion": "false####"}
+{"prompt": "The city of Berlin is the capital of Germany.####", "completion": "true####"}
+{"prompt": "Rainbows are caused by the reflection, refraction, and dispersion of light.####", "completion": "true####"}
+{"prompt": "Kangaroos are native to South America.####", "completion": "false####"}
+{"prompt": "The planet Uranus is composed mostly of gas.####", "completion": "true####"}
+{"prompt": "The Mona Lisa is displayed in the Louvre Museum.####", "completion": "true####"}
+{"prompt": "The Sahara Desert is expanding in size.####", "completion": "true####"}
+{"prompt": "The human skeleton is made up of 206 bones.####", "completion": "true####"}
+{"prompt": "Dogs are descendants of wolves.####", "completion": "true####"}
+{"prompt": "The city of London is located in the United Kingdom.####", "completion": "true####"}
+{"prompt": "The planet Neptune is named after the Roman god of the sea.####", "completion": "true####"}
+{"prompt": "Bees play a crucial role in pollination.####", "completion": "true####"}
+{"prompt": "The Mona Lisa is a painting.####", "completion": "true####"}
+{"prompt": "The human body has 206 bones.####", "completion": "true####"}
+{"prompt": "Mount Kilimanjaro is the highest mountain in Africa.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is larger than Earth.####", "completion": "true####"}
+{"prompt": "The Colosseum is located in Rome.####", "completion": "true####"}
+{"prompt": "Apples grow on trees.####", "completion": "true####"}
+{"prompt": "The human brain is the control center of the body.####", "completion": "true####"}
+{"prompt": "The city of New York is located in the United States.####", "completion": "true####"}
+{"prompt": "Oxygen is necessary for human survival.####", "completion": "true####"}
+{"prompt": "The planet Mars has two moons named Phobos and Deimos.####", "completion": "true####"}
+{"prompt": "Giraffes have long necks.####", "completion": "true####"}
+{"prompt": "The Great Wall of China is a UNESCO World Heritage Site.####", "completion": "true####"}
+{"prompt": "The city of Sydney is located in Australia.####", "completion": "true####"}
+{"prompt": "The human body has a total of 206 bones.####", "completion": "true####"}
+{"prompt": "The city of Moscow is the capital of Russia.####", "completion": "true####"}
+{"prompt": "Oranges are a citrus fruit.####", "completion": "true####"}
+{"prompt": "The planet Saturn has a prominent ring system.####", "completion": "true####"}
+{"prompt": "The city of Beijing is located in China.####", "completion": "true####"}
+{"prompt": "The human respiratory system includes the lungs and diaphragm.####", "completion": "true####"}
+{"prompt": "Ice melts at temperatures above 0 degrees Celsius.####", "completion": "true####"}
+{"prompt": "The city of Cairo is located in Egypt.####", "completion": "true####"}
+{"prompt": "The human heart is responsible for pumping blood throughout the body.####", "completion": "true####"}
+{"prompt": "Mount Everest is the highest mountain in the world.####", "completion": "true####"}
+{"prompt": "The city of Tokyo is located in Japan.####", "completion": "true####"}
+{"prompt": "The human body is composed of approximately 60% water.####", "completion": "true####"}
+{"prompt": "The planet Venus is known as the Morning Star or Evening Star.####", "completion": "true####"}
+{"prompt": "The city of Rome is located in Italy.####", "completion": "true####"}
+{"prompt": "Horses are herbivores.####", "completion": "true####"}
+{"prompt": "The planet Mercury has no moons.####", "completion": "true####"}
+{"prompt": "The city of Paris is located in France.####", "completion": "true####"}
+{"prompt": "The human digestive system breaks down food for energy.####", "completion": "true####"}
+{"prompt": "Lions are carnivorous animals.####", "completion": "true####"}
+{"prompt": "The city of Berlin is located in Germany.####", "completion": "true####"}
+{"prompt": "Gold is a precious metal.####", "completion": "true####"}
+{"prompt": "The planet Uranus has a bluish-green color.####", "completion": "true####"}
+{"prompt": "The city of Athens is located in Greece.####", "completion": "true####"}
+{"prompt": "The human circulatory system is responsible for transporting oxygen and nutrients throughout the body.####", "completion": "true####"}
+{"prompt": "The planet Pluto was reclassified as a dwarf planet in 2006.####", "completion": "true####"}
+{"prompt": "The city of Beijing is the capital of China.####", "completion": "true####"}
+{"prompt": "The planet Neptune is the farthest planet from the Sun.####", "completion": "true####"}
+{"prompt": "Cows produce milk.####", "completion": "true####"}
+{"prompt": "The city of Madrid is located in Spain.####", "completion": "true####"}
+{"prompt": "The planet Mars is often referred to as the Red Planet####", "completion": "true####"}
+{"prompt": "The human nervous system controls bodily functions and processes.####", "completion": "true####"}
+{"prompt": "Cats are domesticated animals.####", "completion": "true####"}
+{"prompt": "The city of Vienna is located in Austria.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the largest planet in our solar system.####", "completion": "true####"}
+{"prompt": "Bananas are yellow when ripe.####", "completion": "true####"}
+{"prompt": "The city of New Delhi is located in India.####", "completion": "true####"}
+{"prompt": "The planet Saturn is known for its distinctive ring system.####", "completion": "true####"}
+{"prompt": "The human muscular system allows for movement and mobility.####", "completion": "true####"}
+{"prompt": "Elephants are the largestland animals.####", "completion": "true####"}
+{"prompt": "The city of Toronto is located in Canada.####", "completion": "true####"}
+{"prompt": "The planet Earth is the third planet from the Sun.####", "completion": "true####"}
+{"prompt": "Apples are a common fruit.####", "completion": "true####"}
+{"prompt": "The city of Istanbul is located in Turkey.####", "completion": "true####"}
+{"prompt": "The planet Venus is the hottest planet in our solar system.####", "completion": "true####"}
+{"prompt": "Butterflies undergo metamorphosis.####", "completion": "true####"}
+{"prompt": "The city of Stockholm is located in Sweden.####", "completion": "true####"}
+{"prompt": "The planet Uranus is tilted on its side.####", "completion": "true####"}
+{"prompt": "Penguins live in the Southern Hemisphere.####", "completion": "true####"}
+{"prompt": "The city of Prague is located in the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars has polar ice caps.####", "completion": "true####"}
+{"prompt": "Grapes are used to make wine.####", "completion": "true####"}
+{"prompt": "The city of Rio de Janeiro is located in Brazil.####", "completion": "true####"}
+{"prompt": "The planet Neptune was discovered in 1846.####", "completion": "true####"}
+{"prompt": "Honey is produced by bees.####", "completion": "true####"}
+{"prompt": "The city of Amsterdam is located in the Netherlands.####", "completion": "true####"}
+{"prompt": "The planet Jupiter has a strong magnetic field.####", "completion": "true####"}
+{"prompt": "Oranges are a good source of vitamin C.####", "completion": "true####"}
+{"prompt": "The city of Buenos Aires is located in Argentina.####", "completion": "true####"}
+{"prompt": "The planet Saturn has a hexagonal-shaped storm on its north pole.####", "completion": "true####"}
+{"prompt": "Bees collect nectar from flowers to make honey.####", "completion": "true####"}
+{"prompt": "The city of Vienna is the capital of Austria.####", "completion": "true####"}
+{"prompt": "The planet Mars has a thin atmosphere.####", "completion": "true####"}
+{"prompt": "Strawberries are a type of berry.####", "completion": "true####"}
+{"prompt": "The city of Athens is the capital of Greece.####", "completion": "true####"}
+{"prompt": "The planet Jupiter has a storm known as the Great Red Spot.####", "completion": "true####"}
+{"prompt": "Pineapples are tropical fruits.####", "completion": "true####"}
+{"prompt": "The city of Oslo is located in Norway.####", "completion": "true####"}
+{"prompt": "The planet Uranus is the seventh planet from the Sun.####", "completion": "true####"}
+{"prompt": "Kiwis are fuzzy fruits.####", "completion": "true####"}
+{"prompt": "The city of Rome is the capital of Italy.####", "completion": "true####"}
+{"prompt": "The planet Mars has a reddish appearance due to iron oxide on its surface.####", "completion": "true####"}
+{"prompt": "Watermelons are refreshing fruits.####", "completion": "true####"}
+{"prompt": "The city of Budapest is located in Hungary.####", "completion": "true####"}
+{"prompt": "The planet Saturn is known for its extensive ring system.####", "completion": "true####"}
+{"prompt": "Strawberries are often used in desserts.####", "completion": "true####"}
+{"prompt": "The city of Prague is the capital of the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars is the fourth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Mangoes are tropical fruits.####", "completion": "true####"}
+{"prompt": "The city of Warsaw is located in Poland.####", "completion": "true####"}
+{"prompt": "The planet Uranus has a blue-green color.####", "completion": "true####"}
+{"prompt": "Blueberries are small fruits.####", "completion": "true####"}
+{"prompt": "The city of Stockholm is the capital of Sweden.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the fifth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Avocados are creamy fruits.####", "completion": "true####"}
+{"prompt": "The city of Lisbon is located in Portugal.####", "completion": "true####"}
+{"prompt": "The planet Saturn is the sixth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Pomegranates are juicy fruits.####", "completion": "true####"}
+{"prompt": "The city of Helsinki is located in Finland.####", "completion": "true####"}
+{"prompt": "The planet Uranus is named after the Greek god of the sky.####", "completion": "true####"}
+{"prompt": "Blackberries are sweet fruits.####", "completion": "true####"}
+{"prompt": "The city of Dublin is located in Ireland.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the largest planet in the solar system.####", "completion": "true####"}
+{"prompt": "Pears are juicy fruits.####", "completion": "true####"}
+{"prompt": "The city of Prague is located in the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars is the fourth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Peaches are fuzzy fruits.####", "completion": "true####"}
+{"prompt": "The city of Helsinki is the capital of Finland.####", "completion": "true####"}
+{"prompt": "The planet Uranus is the seventh planet from the Sun.####", "completion": "true####"}
+{"prompt": "Blueberries are smallfruits.####", "completion": "true####"}
+{"prompt": "The city of Dublin is located in Ireland.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the largest planet in the solar system.####", "completion": "true####"}
+{"prompt": "Pears are juicy fruits.####", "completion": "true####"}
+{"prompt": "The city of Prague is located in the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars is the fourth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Peaches are fuzzy fruits.####", "completion": "true####"}
+{"prompt": "The city of Helsinki is the capital of Finland.####", "completion": "true####"}
+{"prompt": "The planet Uranus is the seventh planet from the Sun.####", "completion": "true####"}
+{"prompt": "Blueberries are small fruits.####", "completion": "true####"}
+{"prompt": "The city of Dublin is located in Ireland.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the largest planet in the solar system.####", "completion": "true####"}
+{"prompt": "Pears are juicy fruits.####", "completion": "true####"}
+{"prompt": "The city of Prague is located in the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars is the fourth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Peaches are fuzzy fruits.####", "completion": "true####"}
+{"prompt": "The city of Helsinki is the capital of Finland.####", "completion": "true####"}
+{"prompt": "The planet Uranus is the seventh planet from the Sun.####", "completion": "true####"}
+{"prompt": "Blackberries are small fruits.####", "completion": "true####"}
+{"prompt": "The city of Dublin is located in Ireland.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the largest planet in the solar system.####", "completion": "true####"}
+{"prompt": "Pears are juicy fruits.####", "completion": "true####"}
+{"prompt": "The city of Prague is located in the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars is the fourth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Peaches are fuzzy fruits.####", "completion": "true####"}
+{"prompt": "The city of Helsinki is the capital of Finland.####", "completion": "true####"}
+{"prompt": "The planet Uranus is the seventh planet from the Sun.####", "completion": "true####"}
+{"prompt": "Blackberries are small fruits.####", "completion": "true####"}
+{"prompt": "The city of Dublin is located in Ireland.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the largest planet in the solar system.####", "completion": "true####"}
+{"prompt": "Pears are juicy fruits.####", "completion": "true####"}
+{"prompt": "The city of Prague is located in the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars is the fourth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Peaches are fuzzy fruits.####", "completion": "true####"}
+{"prompt": "The city of Helsinki is the capital of Finland.####", "completion": "true####"}
+{"prompt": "The planet Uranus is the seventh planet from the Sun.####", "completion": "true####"}
+{"prompt": "Blackberries are small fruits.####", "completion": "true####"}
+{"prompt": "The city of Dublin is located in Ireland.####", "completion": "true####"}
+{"prompt": "The planet Jupiter is the largest planet in the solar system.####", "completion": "true####"}
+{"prompt": "Pears are juicy fruits.####", "completion": "true####"}
+{"prompt": "The city of Prague is located in the Czech Republic.####", "completion": "true####"}
+{"prompt": "The planet Mars is the fourth planet from the Sun.####", "completion": "true####"}
+{"prompt": "Peaches are fuzzy fruits.####", "completion": "true####"}
+{"prompt": "The city of Helsinki is the capital of Finland.####", "completion": "true####"}
+{"prompt": "The planet Uranus is the seventh planet from the Sun.####", "completion": "true####"}
+{"prompt": "The sun rises in the east and sets in the west.####", "completion": "true####"}
+{"prompt": "Diamonds are formed from coal.####", "completion": "false####"}
+{"prompt": "The planet Mars is known as the Red Planet.####", "completion": "true####"}
+{"prompt": "Water boils at 100 degrees Celsius.####", "completion": "true####"}
+{"prompt": "Birds can fly.####", "completion": "true####"}
+{"prompt": "The capital of France is Paris.####", "completion": "true####"}
+{"prompt": "Cats are mammals.####", "completion": "true####"}
+{"prompt": "The Earth revolves around the Sun.####", "completion": "true####"}
+{"prompt": "Fish live in water.####", "completion": "true####"}
+{"prompt": "The Statue of Liberty is located in New York City.####", "completion": "true####"}

@@ -1,10 +1,12 @@
 ﻿using GPT_FineTune.Application.Interfaces;
 using MediatR;
+using System.ComponentModel.DataAnnotations;
 
 namespace GPT_FineTune.Application.Commands.FineTune
 {
     public class CancelFineTuneJobCommand : IRequest<Unit>
     {
+        [Required]
         public string FineTuneId { get; set; }
     }
 
