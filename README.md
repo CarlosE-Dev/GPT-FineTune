@@ -25,9 +25,9 @@ Artificial intelligence is becoming increasingly relevant, and using it for comp
 
 ### ***Architecture***
 
-- Full architecture with responsibility separation concerns, SOLID and Clean Code
 - Clean Architeture
 - Domain Driven Design
+- SOLID and Clean Code
 - CQRS
 - Repository
 
